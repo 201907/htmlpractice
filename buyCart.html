@@ -1,0 +1,169 @@
+﻿<!DOCTYPE>
+<!-- saved from url=(0041)http://javamall.project.bdqn.cn/cart.html -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>购物车-示例商城222</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<META name=keywords content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+<META name=description content=""><LINK rel="shortcut icon" 
+href="http://114.112.168.77:8080/statics/images/default/favicon.ico">
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+<script src="js/login.js" type="text/javascript"></script>
+<script src="js/buycar.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/button.css"/>
+<SCRIPT>
+$(function(){
+	$('#nav_menu>ul>li').dropDownMenu({child:'.child'});
+	
+});
+</SCRIPT>
+
+<META name=GENERATOR content="MSHTML 8.00.6001.23588"></HEAD>
+<BODY>
+<iframe id="header-frame"src="header.html" width="1024px" frameborder="0px" scrolling="no" height="400px"></iframe>
+<SCRIPT type=text/javascript>
+var searchTipText = "请输入产品关键字，如品牌、型号等";
+function search(){
+	var keyword = $.trim( $("#keyword").val());
+	if(keyword == searchTipText){
+		keyword = '';
+	}
+	if(keyword.indexOf('\\')!=-1){
+		alert("请输入正确的关键词");
+		return false;
+	}
+	if(keyword==''){
+		alert("请输入关键字");
+	}else{
+		keyword = keyword.replace(/\//g,"-xie-")
+		var url =  encodeURIComponent("search-keyword-"+keyword+".html");
+		location.href=url;
+	}
+}
+
+$(function(){	
+	$("#keyword").keypress(function(event){
+	//	$("#keyword").attr("class","seek");
+		if(event.keyCode=="13" ){
+			search();
+		}
+	});
+	$("#keyword").click(function(){
+		if($(this).val() == searchTipText){
+			$(this).val("");
+		}
+	});
+	$("#keyword").blur(function(){
+		if($(this).val() == ''){
+			$(this).val(searchTipText);
+		}
+	});
+	
+	$("#searchBtn").click(function(){
+		search();
+	});
+});
+</SCRIPT>
+</DIV><!--正文-->
+<DIV id=main>
+<DIV id=cart_wrapper><!--购物进程提示-->
+<DIV class=cart_nav>
+<DIV class=step1><IMG alt=购物车及购物车进程 src="购物车-示例商城222_files/gwc.jpg"> 
+</DIV></DIV><!--购物进程提示结束--><!--商品列表-->
+<DIV class=goods_list><!--选购物品标题-->
+<DIV class=border>
+<SCRIPT type=text/javascript>
+var isLogin =false;
+</SCRIPT>
+
+<DIV id=cart_wrapper>您的购物车中暂无商品，赶快<A 
+href="http://javamall.project.bdqn.cn/index.html">挑选心爱的商品</A>吧！ 
+</DIV></DIV></DIV><!--商品列表结束--><!--购物车推荐商品-->
+<DIV class=shop_rec>
+<DIV class=shop_caption>
+<H1>根据您的购物车中的商品，我们为您推荐</H1></DIV>
+<DIV class=shop_cargo>
+<DIV class=sc_left><input type="button" value="&lt;" class=" left button"/></DIV>
+<DIV class=sc_middle>
+<UL>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-30.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202221648349842_thumbnail.jpg"></A> 
+  <H1><A title="德芙 榛仁葡萄干巧克力碗装283.5g" 
+  href="http://javamall.project.bdqn.cn/goods-30.html">德芙 
+  榛仁葡萄干巧克力碗装283.5g</A></H1>
+  <P>售价：<SPAN>￥45.00</SPAN></P></LI>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-116.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202231706544833_thumbnail.jpg"></A> 
+  <H1><A title="玉兰油水感透白明眸走珠精华笔 6ml" 
+  href="http://javamall.project.bdqn.cn/goods-116.html">玉兰油水感透白明眸走珠精华笔 
+  6ml</A></H1>
+  <P>售价：<SPAN>￥136.00</SPAN></P></LI>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-118.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202231715385886_thumbnail.jpg"></A> 
+  <H1><A title="OLAY玉兰油 新生塑颜金纯眼霜15ml" 
+  href="http://javamall.project.bdqn.cn/goods-118.html">OLAY玉兰油 
+  新生塑颜金纯眼霜15ml</A></H1>
+  <P>售价：<SPAN>￥202.00</SPAN></P></LI>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-118.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202231715385886_thumbnail.jpg"></A> 
+  <H1><A title="OLAY玉兰油 新生塑颜金纯眼霜15ml" 
+  href="http://javamall.project.bdqn.cn/goods-118.html">OLAY玉兰油 
+  新生塑颜金纯眼霜15ml</A></H1>
+  <P>售价：<SPAN>￥202.00</SPAN></P></LI>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-123.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202231834296191_thumbnail.jpg"></A> 
+  <H1><A title="相宜本草 防皱消黑眼贴膜6对/盒" 
+  href="http://javamall.project.bdqn.cn/goods-123.html">相宜本草 
+防皱消黑眼贴膜6对/盒</A></H1>
+  <P>售价：<SPAN>￥36.00</SPAN></P></LI>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-127.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202231858455491_thumbnail.jpg"></A> 
+  <H1><A title="相宜本草 男士洁面乳120g/支" 
+  href="http://javamall.project.bdqn.cn/goods-127.html">相宜本草 
+男士洁面乳120g/支</A></H1>
+  <P>售价：<SPAN>￥20.00</SPAN></P></LI>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-128.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202231901239199_thumbnail.jpg"></A> 
+  <H1><A title="资生堂吾诺黑炭强力劲爽洁面膏130g " 
+  href="http://javamall.project.bdqn.cn/goods-128.html">资生堂吾诺黑炭强力劲爽洁面膏130g 
+  </A></H1>
+  <P>售价：<SPAN>￥43.90</SPAN></P></LI>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-129.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202231904140607_thumbnail.jpg"></A> 
+  <H1><A title=OLAY玉兰油男士焕能多效泡沫洁面乳100g 
+  href="http://javamall.project.bdqn.cn/goods-129.html">OLAY玉兰油男士焕能多效泡沫洁面乳100g</A></H1>
+  <P>售价：<SPAN>￥29.90</SPAN></P></LI>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-130.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202231907582746_thumbnail.jpg"></A> 
+  <H1><A title="曼秀雷敦男士润唇膏（天然型）3.5g " 
+  href="http://javamall.project.bdqn.cn/goods-130.html">曼秀雷敦男士润唇膏（天然型）3.5g 
+  </A></H1>
+  <P>售价：<SPAN>￥23.90</SPAN></P></LI>
+  <LI><A href="http://javamall.project.bdqn.cn/goods-131.html"><IMG alt=广告小图片列表 
+  src="购物车-示例商城222_files/201202231910375481_thumbnail.jpg"></A> 
+  <H1><A title="曼秀雷敦男士冰爽活炭套装(冰爽活炭洁面乳150ml + 清爽沐浴露-天然活炭200ml)" 
+  href="http://javamall.project.bdqn.cn/goods-131.html">曼秀雷敦男士冰爽活炭套装(冰爽活炭洁面乳150ml 
+  + 清爽沐浴露-天然活炭200ml)</A></H1>
+  <P>售价：<SPAN>￥56.00</SPAN></P></LI></UL></DIV>
+<DIV class=sc_right><input type="button" value="&gt;" class=" right button"/></DIV></DIV></DIV>
+<SCRIPT>
+$(function(){
+	var lm = 0;
+	var lc = $(".sc_middle>ul>li").length;
+		$(".sc_middle>ul").css("width", lc*187+"px");
+		$(".sc_right>a").click(function(){
+			if(lm>((lc-5)*187)*-1){
+				lm = lm - 187;
+				$(".sc_middle>ul").css("margin-left", lm + "px");
+			}
+		});
+		$(".sc_left>a").click(function(){
+			if(lm<0){
+				lm = lm + 187;
+				$(".sc_middle>ul").css("margin-left", lm + "px");
+			}
+		});
+});
+</SCRIPT>
+<iframe id="footer-frame"src="footer.html" width="1024px" frameborder="0px" scrolling="no" height="250px"></iframe>
+</BODY></HTML>

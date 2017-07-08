@@ -1,0 +1,16 @@
+#search_bar .search>input[type="button"]{
+	width:70px;
+	border:0px;
+	height:22px;
+	border-radius:0px 2px 2px 0px;
+	background:linear-gradient(to bottom,#80D12A 0%,#66BB08 100%);
+	background-position:0px -168px;
+}
+#yk_dd_wh>#searchForm>ul>li:last-child,#yk_dd_wh .rim_yesno>li:first-child{
+	height:45px;
+	width:130px;
+	background:linear-gradient(to bottom,#81d22b 0%,#65b806 100%);
+	margin-left:50px;
+	text-align:center;
+	border-radius:5px;
+}

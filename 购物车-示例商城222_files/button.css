@@ -1,0 +1,96 @@
+.btn INPUT {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../images/jshop_button.jpg); FLOAT: left; COLOR: #fff; MARGIN-LEFT: 10px; FONT-SIZE: 14px; OVERFLOW: hidden; BORDER-TOP: 0px; CURSOR: pointer; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.btn A {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../images/jshop_button.jpg); FLOAT: left; COLOR: #fff; MARGIN-LEFT: 10px; FONT-SIZE: 14px; OVERFLOW: hidden; BORDER-TOP: 0px; CURSOR: pointer; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.btn A {
+	TEXT-DECORATION: none
+}
+.btn .buynow_btn {
+	TEXT-INDENT: -999px; WIDTH: 126px; BACKGROUND-POSITION: left -227px; HEIGHT: 33px
+}
+.btn INPUT.buynow_btn {
+	LINE-HEIGHT: 999px; _text-indent: 0px
+}
+.hover.btn INPUT.buynow_btn {
+	LINE-HEIGHT: 999px; BACKGROUND: url(../images/jshop_button.jpg) no-repeat -138px -227px; _text-indent: 0px
+}
+.btn A.buynow_btn {
+	LINE-HEIGHT: 33px
+}
+.hover.btn A.buynow_btn {
+	BACKGROUND-POSITION: -138px -227px
+}
+.btn .addtocart_btn {
+	TEXT-INDENT: -999px; WIDTH: 133px; BACKGROUND-POSITION: left -274px; HEIGHT: 35px
+}
+.btn INPUT.addtocart_btn {
+	LINE-HEIGHT: 999px; _text-indent: 0px
+}
+.hover.btn INPUT.addtocart_btn {
+	LINE-HEIGHT: 99999px; BACKGROUND: url(../images/jshop_button.jpg) no-repeat -138px -274px; _text-indent: 0px
+}
+.btn A.addtocart_btn {
+	LINE-HEIGHT: 35px
+}
+.hover.btn A.addtocart_btn {
+	BACKGROUND-POSITION: -138px -274px
+}
+.btn .checkout_btn {
+	TEXT-INDENT: -999px; WIDTH: 110px; BACKGROUND-POSITION: left top; HEIGHT: 33px
+}
+.btn INPUT.checkout_btn {
+	LINE-HEIGHT: 999px; _text-indent: 0px
+}
+.hover.btn INPUT.checkout_btn {
+	LINE-HEIGHT: 999px; BACKGROUND-POSITION: -138px top; _text-indent: 0px
+}
+.btn A.checkout_btn {
+	LINE-HEIGHT: 33px
+}
+.btn A.checkout_btn:hover {
+	BACKGROUND-POSITION: -138px top
+}
+.btn .returnbuy_btn {
+	TEXT-INDENT: -999px; WIDTH: 110px; BACKGROUND-POSITION: left -43px; HEIGHT: 33px
+}
+.btn INPUT.returnbuy_btn {
+	LINE-HEIGHT: 999px; _text-indent: 0px
+}
+.hover.btn INPUT.returnbuy_btn {
+	LINE-HEIGHT: 999px; BACKGROUND-POSITION: -138px -43px; _text-indent: 0px
+}
+.btn A.returnbuy_btn {
+	LINE-HEIGHT: 33px
+}
+.btn A.returnbuy_btn:hover {
+	BACKGROUND-POSITION: -138px -43px
+}
+.btn .blue_btn {
+	LINE-HEIGHT: 33px; WIDTH: 110px; BACKGROUND-POSITION: left -88px; HEIGHT: 33px
+}
+.hover.btn INPUT.blue_btn {
+	BACKGROUND-POSITION: -138px -88px
+}
+.btn A.blue_btn:hover {
+	BACKGROUND-POSITION: -138px -88px
+}
+.btn .yellow_btn {
+	LINE-HEIGHT: 33px; WIDTH: 110px; BACKGROUND-POSITION: left -138px; HEIGHT: 33px
+}
+.hover.btn INPUT.yellow_btn {
+	BACKGROUND-POSITION: -138px -138px
+}
+.btn A.yellow_btn:hover {
+	BACKGROUND-POSITION: -138px -138px
+}
+.btn .green_btn {
+	LINE-HEIGHT: 33px; WIDTH: 110px; BACKGROUND-POSITION: left -180px; HEIGHT: 33px
+}
+.hover.btn INPUT.green_btn {
+	BACKGROUND-POSITION: -138px -180px
+}
+.btn A.green_btn:hover {
+	BACKGROUND-POSITION: -138px -180px
+}
